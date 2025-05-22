@@ -1,14 +1,5 @@
-﻿namespace InternPulse3.Models
+﻿namespace InternPulse3.Dtos
 {
-    public class Payment
-    {
-        public string Id { get; set; }
-        public string CustomerName { get; set; }
-        public string CustomerEmail { get; set; }
-        public decimal Amount { get; set; }
-        public string Status { get; set; }
-        public string AuthorizationUrl { get; set; }
-    }
     public class PaymentRequest
     {
         public string CustomerName { get; set; }

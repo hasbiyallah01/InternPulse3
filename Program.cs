@@ -1,3 +1,5 @@
+using InternPulse3.Context;
+using InternPulse3.Dtos;
 using InternPulse3.Models;
 using Microsoft.EntityFrameworkCore;
 

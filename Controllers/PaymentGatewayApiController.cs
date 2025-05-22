@@ -1,4 +1,5 @@
-﻿using InternPulse3.Models;
+﻿using InternPulse3.Dtos;
+using InternPulse3.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Text.Json;
 

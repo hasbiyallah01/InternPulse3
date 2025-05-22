@@ -1,7 +1,8 @@
 ﻿using System.Collections.Concurrent;
 using System.Net.Http.Headers;
 using System.Text;
-using InternPulse3.Models;
+using InternPulse3.Context;
+using InternPulse3.Dtos;
 using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
 

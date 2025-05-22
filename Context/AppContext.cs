@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace InternPulse3.Models
+namespace InternPulse3.Context
 {
     public class AppDbContext : DbContext
     {

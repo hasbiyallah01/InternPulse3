@@ -1,4 +1,6 @@
-﻿namespace InternPulse3.Models
+﻿using InternPulse3.Dtos;
+
+namespace InternPulse3.Models
 {
     public interface IPayStackService
     {

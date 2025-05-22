@@ -1,4 +1,4 @@
-﻿namespace InternPulse3.Models
+﻿namespace InternPulse3.Dtos
 {
     public class PaymentResponse
     {
