@@ -364,5 +364,7 @@ FodyWeavers.xsd
 
 
 # .gitignore
-appsettings.Development.json
-appsettings.json
+
+#appsettings.Development.json
+
+#appsettings.json
