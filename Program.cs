@@ -27,6 +27,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+app.MapGet("/", () => "InternPulse3 API is running!");
 
 app.UseHttpsRedirection();
 
