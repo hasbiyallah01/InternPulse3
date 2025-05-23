@@ -11,7 +11,10 @@ builder.Services.AddDbContext<AppDbContext>(options =>
             maxRetryDelay: TimeSpan.FromSeconds(30),
             errorCodesToAdd: null)));
 builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
-
+builder.Configuration
+    .SetBasePath(Directory.GetCurrentDirectory())
+    .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+    .AddEnvironmentVariables();
 builder.Services.AddControllers();
 
 builder.Services.Configure<PaystackSettings>(builder.Configuration.GetSection("Paystack"));

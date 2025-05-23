@@ -27,4 +27,5 @@ RUN dotnet publish "./InternPulse3.csproj" -c $BUILD_CONFIGURATION -o /app/publi
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
+COPY appsettings.json ./appsettings.json
 ENTRYPOINT ["dotnet", "InternPulse3.dll"]
